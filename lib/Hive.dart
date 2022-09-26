@@ -19,7 +19,7 @@ one step for initail hive local database
 Like this : ->
 import 'package:hive/hive.dart';
 
-part 'Model.g.dart'; // this line write name of folder and .g for generate file
+part 'Model.g.dart'; // this line write name of file not folder and .g for generate file
 
 @HiveType(typeId: 0) // should be all class have unique nember
 class Members extends HiveObject{
